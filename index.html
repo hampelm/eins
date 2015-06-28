@@ -2,14 +2,24 @@
 <html>
 <head>
   <title>Explore NTEEs</title>
+
+  <style type="text/css">
+  html,
+  body,
+  #chart {
+    height: 100%;
+    width: 100%;
+  }
+  </style>
 </head>
 <body>
   <div id="chart"></div>
 
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js"></script>
   <script src="http://code.highcharts.com/highcharts.js"></script>
-  <script src="http://code.highcharts.com/highcharts-more.js"></script>
+  <script src="http://code.highcharts.com/modules/heatmap.js"></script>
+  <script src="http://code.highcharts.com/modules/treemap.js"></script>
   <script src="js/ntees.js"></script>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
