@@ -169,7 +169,7 @@ window.onload = function () {
       data: points
     }],
     subtitle: {
-      text: 'Click points to drill down. Source: <a href="http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Business-Master-File-Extract-EO-BMF">IRS</a>.'
+      text: 'Click boxes to drill down. Source: <a href="http://www.irs.gov/Charities-&-Non-Profits/Exempt-Organizations-Business-Master-File-Extract-EO-BMF">IRS</a>.'
     },
     plotOptions: {
       treemap: {
