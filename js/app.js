@@ -8,10 +8,11 @@ TODO
 - What to blank TAX_PERIODs mean?
 - Sum organizations that don't have an NTEE code
   (do they have commonalities?)
-
+- Potentially exclude
 */
 
 window.onload = function () {
+  var TITLE = 'Annual Income';
   var VALUE_KEY = 'INCOME_AMT'; // INCOME_AMT, REVENUE_AMT, ASSET_AMT
 
   var COLORS = [
@@ -182,7 +183,7 @@ window.onload = function () {
       }
     },
     title: {
-      text: 'Annual revenue'
+      text: TITLE
     }
   });
 };
