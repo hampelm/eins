@@ -12,7 +12,7 @@ TODO
 */
 
 window.onload = function () {
-  var TITLE = 'Annual Income';
+  var TITLE = 'Annual Income of Detroit-based Nonprofits';
   var VALUE_KEY = 'INCOME_AMT'; // INCOME_AMT, REVENUE_AMT, ASSET_AMT
 
   var COLORS = [
